@@ -14,7 +14,7 @@ services:
     environment:
       CERTBOT_EMAIL: vnanhtuan@gmail.com
       # variable names are space-separated
-      ENVSUBST_VARS: FQDN #FQN1
+      ENVSUBST_VARS: FQDN
       FQDN: fashionshop.vnanhtuan.com
       #FQDN1: batdongsan.vnanhtuan.com
     volumes:
