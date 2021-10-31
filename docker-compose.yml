@@ -18,7 +18,7 @@ services:
       FQDN: fashionshop.vnanhtuan.com
       #FQDN1: batdongsan.vnanhtuan.com
     volumes:
-      - ./nginx:/etc/nginx/user.conf.d:ro
+      - ./nginx/app.conf
       - letsencrypt:/etc/letsencrypt
 volumes:
   letsencrypt:
