@@ -17,7 +17,7 @@ services:
       ENVSUBST_VARS: FQDN
       FQDN: fashionshop.vnanhtuan.com
     volumes:
-      - ./nginx/etc/nginx/user.conf.d:ro
+      - ./nginx:/etc/nginx/user.conf.d:ro
       - letsencrypt:/etc/letsencrypt
 volumes:
   letsencrypt:
