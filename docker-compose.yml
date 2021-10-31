@@ -1,7 +1,7 @@
 version: '3.6'
 services:
   fashion-app:
-    image: vnanhtuan/fashion-shop:latest     
+    image: vnanhtuan/fashion-shop:release     
     restart: always
     ports:
       - 3000:3000
