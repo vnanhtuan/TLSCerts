@@ -16,7 +16,6 @@ services:
       # variable names are space-separated
       ENVSUBST_VARS: FQDN
       FQDN: fashionshop.vnanhtuan.com
-      #FQDN1: batdongsan.vnanhtuan.com
     volumes:
       - ./nginx:/etc/nginx/conf.d
       - letsencrypt:/etc/letsencrypt
